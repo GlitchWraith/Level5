@@ -1,0 +1,5 @@
+testfile1, testfile2 and testfile3 all have different content and should produce different hash values.
+
+testdir1 and testdir2 - have same file names/sizes/modified date, but with different content in the files. So should produce different directory hash values, but same meta-data hash values.
+
+testdir1 and testdir3 - have different files names/modified date, but same content. So should produce same directory hash values, but different meta-data hash values.
